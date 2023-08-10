@@ -4,16 +4,15 @@ public class StudentTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Student studentLee = new Student();
-		studentLee.studentName = "Lee";
+		Student studentLee = new Student(100, "Lee");
 		studentLee.studentAddress = "Seoul";
-		
-		Student studentKim = new Student();
-		studentKim.studentName = "kim";
-		studentKim.studentAddress = "New York";
-		
+
+		Student studentKim = new Student(101, "Kim", "New York");
+
 		studentLee.showStudentInfo();
 		studentKim.showStudentInfo();
-		
+
+		System.out.println(studentLee);
+		System.out.println(studentKim);
 	}
 }
