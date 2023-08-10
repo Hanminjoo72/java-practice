@@ -15,5 +15,4 @@ public class StudentTest {
 		studentLee.showStudentInfo();
 		studentKim.showStudentInfo();
 	}
-
 }
