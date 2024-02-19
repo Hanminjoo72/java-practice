@@ -31,7 +31,8 @@ public class J_14719 {
                 right = Math.max(height[j], right);
             }
  
-            if(height[i] < left && height[i] < right) result += Math.min(left, right) - height[i];
+            if(height[i] < left && height[i] < right) 
+            result += Math.min(left, right) - height[i];
         }
         System.out.println(result);
     }

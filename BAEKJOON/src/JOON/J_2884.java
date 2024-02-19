@@ -3,7 +3,7 @@ package JOON;
 import java.util.Scanner;
 
 public class J_2884 {
-
+   
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
